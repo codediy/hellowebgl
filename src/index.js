@@ -1,1 +1,3 @@
-console.log("Test");
+import hello from "./webgl/hello";
+
+hello();
