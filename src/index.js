@@ -1,3 +1,7 @@
 import hello from "./webgl/hello";
+import point from "./webgl/point";
 
-hello();
+// 清空canvas
+// hello();
+
+point();
