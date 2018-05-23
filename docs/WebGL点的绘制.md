@@ -1,7 +1,5 @@
 # 1 设置背景色
 
-## 主要代码文件
-
 >src/index.html
 >
 >src/webgl/hello.js
@@ -25,7 +23,6 @@ gl.clear(gl.COLOR_BUFFER_BIT);
 
 # 2 绘制点
 
->主要代码
 
 >src/index.html
 >
@@ -78,12 +75,16 @@ gl.drawArrays(gl.POINTS,0,1);
 
 # 3 webgl函数封装
 
-主要代码
+
 > src/lib/webgl.js
 >
 > src/webgl/point2.js
 
 # 4 点的位置和大小修改
 
-主要代码
+
 > src/webgl/point3.js
+
+# 5 鼠标点击创建点
+
+# 6 鼠标点击创建不同颜色的点
