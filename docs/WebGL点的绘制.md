@@ -1,8 +1,9 @@
-# 设置背景色
+# 1 设置背景色
 
 ## 主要代码文件
-src/index.html
-src/webgl/hello.js
+
+>src/index.html
+>src/webgl/hello.js
 
 ## index.html
 引入canvas标签。
@@ -21,11 +22,13 @@ gl.clear(gl.COLOR_BUFFER_BIT);
 设置背景色
 清空canvas
 
-# 绘制点
+# 2 绘制点
 
-主要代码
-src/index.html
-src/webgl/point.js
+>主要代码
+
+>src/index.html
+
+>src/webgl/point.js
 
 ## point.js
 
@@ -68,6 +71,17 @@ gl.useProgram(program);
 使用创建的程序对象
 
 ~~~
- gl.drawArrays(gl.POINTS,0,1);
+gl.drawArrays(gl.POINTS,0,1);
 ~~~
 绘制一个点
+
+# 3 webgl函数封装
+
+主要代码
+> src/lib/webgl.js
+> src/webgl/point2.js
+
+# 4 点的位置和大小修改
+
+主要代码
+> src/webgl/point3.js
