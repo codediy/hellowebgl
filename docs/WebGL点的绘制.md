@@ -3,6 +3,7 @@
 ## 主要代码文件
 
 >src/index.html
+>
 >src/webgl/hello.js
 
 ## index.html
@@ -27,7 +28,7 @@ gl.clear(gl.COLOR_BUFFER_BIT);
 >主要代码
 
 >src/index.html
-
+>
 >src/webgl/point.js
 
 ## point.js
@@ -79,6 +80,7 @@ gl.drawArrays(gl.POINTS,0,1);
 
 主要代码
 > src/lib/webgl.js
+>
 > src/webgl/point2.js
 
 # 4 点的位置和大小修改
