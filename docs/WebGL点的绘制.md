@@ -87,4 +87,8 @@ gl.drawArrays(gl.POINTS,0,1);
 
 # 5 鼠标点击创建点
 
+> src/webgl/point4.js
+
 # 6 鼠标点击创建不同颜色的点
+
+> src/webgl/point5.js
