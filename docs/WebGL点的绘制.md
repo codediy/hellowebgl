@@ -82,9 +82,29 @@ gl.drawArrays(gl.POINTS,0,1);
 
 # 4 点的位置和大小修改
 
-
 > src/webgl/point3.js
 
 # 5 鼠标点击创建点
 
+> src/webgl/point4.js
+
 # 6 鼠标点击创建不同颜色的点
+
+> src/webgl/point5.js
+
+# 7 绘制多个点
+
+> src/webgl/point6.js
+
+
+# 8 绘制不同大小的多个点(多个缓冲区对象)
+
+> src/webgl/point7.js
+
+# 9 环志不同大小的多个点(单个缓冲区对象)
+
+> src/webgl/point8.js
+
+# 10 绘制不同颜色不同大小的多个点(单个缓冲区对象)
+
+> src/webgl/point9.js
